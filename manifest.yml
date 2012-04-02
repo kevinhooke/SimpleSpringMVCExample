@@ -1,0 +1,13 @@
+--- 
+applications: 
+  target: 
+    name: springmvctest
+    instances: 1
+    framework: 
+      name: spring
+      info: 
+        exec: 
+        description: Java SpringSource Spring Application
+        mem: 512M
+    url: ${name}.${target-base}
+    mem: 256M

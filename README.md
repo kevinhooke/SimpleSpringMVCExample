@@ -9,6 +9,8 @@ possible app to use as either:
 * a simplest case example of an app using a given framework, for comparing with 
 other frameworks.
 
+If you remember struts-blank.war from back in the day then this is the same idea.
+
 ##What is this?
 This is a simplest case web app using Spring MVC that meets the above needs.
 

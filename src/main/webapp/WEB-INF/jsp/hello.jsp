@@ -10,14 +10,13 @@
 <title>Hello</title>
 </head>
 <body>
-<form:form modelAttribute="hello" action="hello.html">
+<form:form modelAttribute="hello" action="hello">
 	<p>What's your name? <form:input path="name"/>
 	<p><input type="submit"/>
 	
 	<br/>
-
-	<p><c:if test="${hello.name ne ''}">Hello <c:out value="${hello.name}"/>
-	</c:if> 
+	<p><c:if test="${!empty hello.name}">Hello <c:out value="${hello.name}"/>
+	</c:if> </p>
 </form:form>
 </body>
 </html>

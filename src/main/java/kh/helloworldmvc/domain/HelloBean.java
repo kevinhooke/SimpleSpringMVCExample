@@ -1,6 +1,10 @@
-package kh.helloworldmvc.web;
+package kh.helloworldmvc.domain;
 
-
+/**
+ * Simple bean.
+ * 
+ * @author Kevin Hooke
+ */
 public class HelloBean {
 
 	private String name;

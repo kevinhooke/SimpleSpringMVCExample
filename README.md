@@ -13,3 +13,6 @@ other frameworks.
 This is a simplest case web app using Spring MVC that meets the above needs.
 
 It doesn't have any database dependencies, because it's that simple.
+
+##What Version of Spring MVC is it using?
+3.1.0
